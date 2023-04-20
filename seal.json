@@ -1,5 +1,5 @@
 {
-  "contract": "Lock",
+  "contract": "Locks",
   "constructors": [1682999802],
   "payable": 0.0001
 }
