@@ -1,5 +1,5 @@
 {
-  "contract": "TetherToken",
+  "contract": "SealToken",
   "constructors": [10000000, "Seal Token", "Seal", 5],
   "payable": 0
 }
