@@ -275,7 +275,7 @@ contract Pausable is Ownable {
 }
 
 contract BlackList is Ownable, BasicToken {
-    /////// Getters to allow the same blacklist to be used also by other contracts (including upgraded Tether) ///////
+    /////// Getters to allow the same blacklist to be used also by other contracts (including upg) ///////
     function getBlackListStatus(
         address _maker
     ) external constant returns (bool) {
@@ -342,7 +342,7 @@ contract TetherToken is Pausable, StandardToken, BlackList {
     // @param _name Token Name
     // @param _symbol Token symbol
     // @param _decimals Token decimals
-    function SealToken(
+    function TetherToken(
         uint _initialSupply,
         string _name,
         string _symbol,
