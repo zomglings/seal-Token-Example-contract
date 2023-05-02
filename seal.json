@@ -1,6 +1,6 @@
 {
-  "contract": "TetherToken",
-  "constructors": [1000000000, "Tether Token", "USDT", 5],
+  "contract": "SealToken",
+  "constructors": [1000000000, "Seal Token", "Seal Stable", 5],
   "payable": 0, 
   "targetEnvironment": "sepolia",
   "accessKey": "pandasteak"
