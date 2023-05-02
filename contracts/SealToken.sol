@@ -328,7 +328,7 @@ contract UpgradedStandardToken is StandardToken {
     function approveByLegacy(address from, address spender, uint value) public;
 }
 
-contract TetherToken is Pausable, StandardToken, BlackList {
+contract SealToken is Pausable, StandardToken, BlackList {
     string public name;
     string public symbol;
     uint public decimals;
@@ -342,7 +342,7 @@ contract TetherToken is Pausable, StandardToken, BlackList {
     // @param _name Token Name
     // @param _symbol Token symbol
     // @param _decimals Token decimals
-    function TetherToken(
+    function SealToken(
         uint _initialSupply,
         string _name,
         string _symbol,
